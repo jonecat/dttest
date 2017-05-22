@@ -1,0 +1,24 @@
+# Site settings
+title: Dakota Trail
+header-img: img/home-bg.jpg
+email: info@dakotatrail.com
+copyright_name: Dakota Trail
+description: "Outdoor life, news, and reviews."
+baseurl: ""
+url: "http://dakotatrail.com"
+twitter_username: dkttrl
+facebook_username: dkttrl
+email_username:  info@dakotatrail.com
+
+# Google Analytics
+# To enable google analytics, uncomment below line with a valid Google Tracking ID
+# google_tracking_id:
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
